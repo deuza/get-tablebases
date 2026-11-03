@@ -24,6 +24,26 @@ Two scripts, one behaviour:
 Same menu, same questions, same messages, same exit codes, same layout on disk.
 Tested on Windows 11, Debian (dash and bash), busybox and macOS.
 
+## Demo
+
+One run of each script on the smallest set, Syzygy 3-4-5: download, Ctrl+C
+partway through, run again and **Resume**, MD5 verification, then the menu shows
+the set as complete. Downloads are sped up in the recordings; typing and
+questions play in real time.
+
+Linux and macOS, `get-tablebases.sh`:
+
+[![get-tablebases.sh: download, Ctrl+C, resume, verification](img/get-tablebases-sh.gif)](https://asciinema.org/a/jTlF2tEYxg6Lf7Kq)
+
+Windows, `get-tablebases.ps1`, recorded with PowerShell 7 on Linux: on Windows
+the paths, the file system and the location of curl differ, the screens are the
+same.
+
+[![get-tablebases.ps1: download, Ctrl+C, resume, verification](img/get-tablebases-ps1.gif)](https://asciinema.org/a/RfXEAXBciWbHaSuf)
+
+Click an animation to open it in the asciinema player, with chapters and
+selectable text.
+
 ## The sets
 
 | Set | Content | Files | Size (measured 2026-10-18) |
